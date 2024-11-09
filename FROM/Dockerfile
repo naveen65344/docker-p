@@ -1,2 +1,2 @@
 FROM nginx
-RUN dnf install nginx -y
+RUN apt-get update && apt-get install -y nginx
