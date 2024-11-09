@@ -1,1 +1,1 @@
-FROM nginx
+FROM almalinux:9
