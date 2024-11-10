@@ -1,2 +1,2 @@
 FROM mysql:8.0
-ENV MYSQL_ROOT_PASSWORD=ExpenseApp@1
+ENV MYSQL=ExpenseApp@1
