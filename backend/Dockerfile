@@ -1,5 +1,5 @@
 FROM node
-mkdir -p /opt/server
+RUN mkdir -p /opt/server
 ENV DB_HOST=mysql
 WORKDIR /opt/server
 COPY *.js .
