@@ -1,5 +1,5 @@
 FROM almalinux
 RUN mkdir -p hello
 WORKDIR hello
-echo "hi"< hi.txt
+RUN echo "hi"< hi.txt
 CMD ["sleep","100"]
