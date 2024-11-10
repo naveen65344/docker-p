@@ -1,4 +1,4 @@
-FROM nodejs
+FROM node
 RUN mkdir -p /opt/server
 ENV DB_HOST="mysql"
 RUN WORKDIR /opt/server
