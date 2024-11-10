@@ -1,0 +1,8 @@
+FROM node
+mkdir -p /opt/server
+ENV DB_HOST=mysql
+WORKDIR /opt/server
+COPY *.js .
+COPY package.js .
+RUN npm install
+CMD ["node","index.js"]
