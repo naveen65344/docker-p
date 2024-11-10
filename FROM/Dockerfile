@@ -1,5 +1,4 @@
 FROM almalinux
 
-CMD ["google.com"]
-ENTRYPOINT ["ping"]
+LABEL author="naveen"
 
