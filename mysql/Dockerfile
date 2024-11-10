@@ -1,3 +1,3 @@
 FROM mysql
 ENV MYSQL_ROOT_PASSWORD=ExpenseApp@1
-ADD 
+ADD scripts/*.sql  /docker-entrypoint-initdb.d
