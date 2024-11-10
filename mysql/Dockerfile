@@ -1,1 +1,2 @@
 FROM mysql
+ENV DB_PASSWORD=ExpenseApp@1
