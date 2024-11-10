@@ -1,6 +1,6 @@
 FROM node
 RUN mkdir -p /opt/server
-ENV DB_HOST="mysql"
+ENV DB_HOST= mysql
 WORKDIR /opt/server
 COPY *.js .
 COPY package.json .
