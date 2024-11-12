@@ -1,4 +1,4 @@
-ARGS version:1
+ARGS VERSION=1
 FROM almalinux:{version}
 RUN dnf install nginx -y
 ENV env=prod
