@@ -1,5 +1,5 @@
 # Start from the slim MySQL image to minimize the size
-FROM mysql:8.0-slim
+FROM mysql:8.0
 
 # Set the environment variable for the MySQL root password
 ENV MYSQL_ROOT_PASSWORD=EXpenseApp@1
