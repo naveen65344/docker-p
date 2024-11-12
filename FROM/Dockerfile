@@ -1,9 +1,7 @@
 FROM almalinux
 RUN dnf install nginx -y
-
-
-
-COPY file/index.html /usr/share/nginx/html
-
+ENV env=prod
 CMD ["ping","google.com"]
+
+
 
